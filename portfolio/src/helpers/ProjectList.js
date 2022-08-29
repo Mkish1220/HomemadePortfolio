@@ -10,7 +10,7 @@ export const ProjectList = [
         skills: "Javascript, HTML, CSS",
     },
     {
-        name: "Carbon Combaters: Changing Our Carbon Footprint one print at a time ",
+        name: "Carbon Combaters: Changing Our Carbon Footprint",
         image: Proj2,
         // add other tech to skills from carbon repo
         skills: "Javascript, HTML, CSS "
