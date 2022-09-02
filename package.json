@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://Mkish1220.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,8 @@
     "react-scripts": "5.0.1",
     "react-vertical-timeline-component": "^3.5.2",
     "web-vitals": "^2.1.4"
+
+
   },
   "scripts": {
     "start": "react-scripts start",
