@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import ProjectDisplay from "./pages/ProjectDisplay";
+// import ProjectDisplay from "./pages/ProjectDisplay";
 import Experience from "./pages/Experience";
 
 // import React from 'react';
@@ -16,13 +16,14 @@ import Experience from "./pages/Experience";
 function App() {
     return ( 
       <div className="App">
+        
         <Router>
           <Navbar />
+          {/* <Home /> */}
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/projects" element={<Projects />} />
-              <Route path="/projects/:id" element={<ProjectDisplay />} />
               <Route path="/experience" element={<Experience />} />
              </Routes>
         <Footer />
