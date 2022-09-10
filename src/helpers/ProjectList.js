@@ -1,7 +1,7 @@
 import Proj1 from "../assests/proj1.jpg";
 import Proj2 from "../assests/proj2.png";
 import Proj3 from "../assests/proj3.png";
-// import Proj4 from "../assests/proj1.jpg";
+import Soon from "../assests/soon.png";
 
 export const ProjectList = [
     {
@@ -21,5 +21,13 @@ export const ProjectList = [
         // add other tech to skills from carbon repo
         skills: "MongoDB via Mongoose ODM, Express, React, Node, DaisyUI, GraphQL, Bcrypt, JWT, Apollo Server, Heroku, MongoDB Atlas, Cloudinary, Stripe, and more."
     },
+    {
+        name: "Coming Soon",
+        image: Soon,
+        skills: "Javascript, HTML, CSS, react"
+
+    },
+
+
 ];
 // add next project and other personal projects 
